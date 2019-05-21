@@ -1,6 +1,6 @@
 USER
 beta key (key) - link you account with the key.
-beta - exsplaiins what it is!
+beta - exsplains what it is!
 
 ADMIN
 beta admin - displace commands.
