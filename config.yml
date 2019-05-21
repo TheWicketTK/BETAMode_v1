@@ -1,0 +1,37 @@
+mysql:
+  host: '127.0.0.1'
+  port: 3306
+  username: 'root'
+  password: 'password'
+  database: 'BETA'
+table:
+  keys: 'beta_keys'
+  whitelist: 'beta_whitelist'
+  blacklist: 'beta_blacklist'
+config:
+  lobbymode: true
+  keylenght: 8
+  flymode: false
+msg:
+  prefix: '&8&l(&bBETA&8&l)&c '
+  nopermission: '&cYou do not have permission!'
+  playerlinksucess: '&bYou account has been linked! &8/server Beta!'
+  needkey: '&bPlease add the key &7Usage: /beta key (key)'
+  keynotvalid: '&cThe key is not valid!'
+  flynotenabled: '&bFlying is not enabled on the server!'
+  flyenable: '&bFlying &aEnabled&b!'
+  flydisable: '&bFlying &cDisabled&b!'
+  kickblacklisted: '&cYou have been &4&lblacklist &bfrom BETA testing, &cAppeal:&8&lwww.centrixpvp.eu/banappeal/'
+  kicknotwhitelisted: '&cYou are not a &bBETA tester&c!'
+  kickkeyinvalid: '&cYour Key is Invalid!'
+  generatekey: '&cThe has been generated!'
+  removedkey: '&cKey has been removed!'
+  whitelistadded: '&bAdded player to the whitelist! &7&lPlayer key: &8&l'
+  alleardywhitelisted: '&cYou are already whitelisted!'
+  whitelistremove: '&bPlayer has been removed from the whitelist!'
+  iswhitelisted: '&cPlayer is already whitelisted.'
+  isnotwhitelisted: '&cPlayer is not whitelisted.'
+  blacklisted: '&cPlayer has been blacklisted!'
+  removedblacklisted: '&cPlayer has been removed from blacklisted!'
+  isblacklisted: '&cPlayer is already blacklisted.'
+  isnotblacklisted: '&cPlayer is not blacklisted.'

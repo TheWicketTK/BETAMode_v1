@@ -1,0 +1,7 @@
+name: BETAMode
+version: 1
+main: com.thewickettk.betamode5812.Main
+author: TheWicketTk
+commands:
+  beta:
+    description: /beta
